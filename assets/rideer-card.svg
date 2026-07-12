@@ -1,77 +1,71 @@
 <svg
   width="580"
-  height="340"
-  viewBox="0 0 580 340"
+  height="330"
+  viewBox="0 0 580 330"
   xmlns="http://www.w3.org/2000/svg"
 >
 
   <defs>
-
-    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="340">
-      <stop offset="0%" stop-color="#0B1120"/>
+    <linearGradient id="background" x1="0" y1="0" x2="580" y2="330">
+      <stop offset="0%" stop-color="#080D18"/>
       <stop offset="100%" stop-color="#151D2D"/>
     </linearGradient>
 
-    <linearGradient id="gold">
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#F6C453"/>
       <stop offset="100%" stop-color="#FFE29A"/>
     </linearGradient>
-
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
   </defs>
 
   <rect
     x="2"
     y="2"
     width="576"
-    height="336"
+    height="326"
     rx="22"
-    fill="url(#bg)"
+    fill="url(#background)"
     stroke="#30363D"
     stroke-width="2"
   />
 
-  <!-- Animated Top Line -->
+  <!-- Animated Top Accent -->
 
   <rect
     x="30"
-    y="0"
-    width="140"
+    y="2"
+    width="120"
     height="3"
     rx="2"
     fill="url(#gold)"
-    filter="url(#glow)"
   >
     <animate
       attributeName="x"
-      values="30;410;30"
-      dur="5s"
+      values="30;430;30"
+      dur="6s"
       repeatCount="indefinite"
     />
   </rect>
 
+  <!-- Project Number -->
+
   <text
     x="35"
-    y="55"
-    font-size="34"
-    font-family="Arial"
+    y="50"
+    fill="#F6C453"
+    font-family="monospace"
+    font-size="14"
   >
-    🚕
+    01 / FEATURED PROJECT
   </text>
+
+  <!-- Title -->
 
   <text
     x="35"
     y="100"
     fill="#FFFFFF"
-    font-size="30"
-    font-family="Arial"
+    font-family="Arial, sans-serif"
+    font-size="31"
     font-weight="700"
   >
     Rideer
@@ -81,65 +75,70 @@
     x="35"
     y="130"
     fill="#F6C453"
-    font-size="16"
     font-family="monospace"
+    font-size="15"
   >
     RIDE BOOKING ANDROID PLATFORM
   </text>
 
+  <!-- Description -->
+
   <text
     x="35"
-    y="180"
+    y="175"
     fill="#A9B1BD"
-    font-size="17"
-    font-family="Arial"
+    font-family="Arial, sans-serif"
+    font-size="16"
   >
-    Real-time ride booking with driver tracking,
+    Real-time ride booking with live driver tracking,
   </text>
 
   <text
     x="35"
-    y="205"
+    y="200"
     fill="#A9B1BD"
-    font-size="17"
-    font-family="Arial"
+    font-family="Arial, sans-serif"
+    font-size="16"
   >
     route visualization and Firebase integration.
   </text>
 
   <!-- Tags -->
 
-  <g font-family="monospace" font-size="14">
+  <g font-family="monospace" font-size="13">
+    <rect x="35" y="235" width="62" height="30" rx="7" fill="#1E293B"/>
+    <text x="51" y="255" fill="#F6C453">Java</text>
 
-    <rect x="35" y="245" width="65" height="32" rx="8" fill="#1E293B"/>
-    <text x="52" y="266" fill="#F6C453">Java</text>
+    <rect x="108" y="235" width="88" height="30" rx="7" fill="#1E293B"/>
+    <text x="123" y="255" fill="#F6C453">Android</text>
 
-    <rect x="112" y="245" width="90" height="32" rx="8" fill="#1E293B"/>
-    <text x="128" y="266" fill="#F6C453">Android</text>
+    <rect x="207" y="235" width="92" height="30" rx="7" fill="#1E293B"/>
+    <text x="222" y="255" fill="#F6C453">Firebase</text>
 
-    <rect x="214" y="245" width="92" height="32" rx="8" fill="#1E293B"/>
-    <text x="230" y="266" fill="#F6C453">Firebase</text>
-
+    <rect x="310" y="235" width="68" height="30" rx="7" fill="#1E293B"/>
+    <text x="325" y="255" fill="#F6C453">Maps</text>
   </g>
+
+  <!-- Footer -->
 
   <text
     x="35"
-    y="315"
-    fill="#8B949E"
+    y="305"
+    fill="#718096"
     font-family="monospace"
-    font-size="14"
+    font-size="13"
   >
-    FEATURED PROJECT
+    VIEW REPOSITORY
   </text>
 
   <text
     x="525"
-    y="315"
+    y="305"
     fill="#F6C453"
-    font-family="Arial"
-    font-size="24"
+    font-family="Arial, sans-serif"
+    font-size="25"
   >
-    ↗
+    →
   </text>
 
 </svg>

@@ -1,53 +1,85 @@
 <svg
   width="1200"
-  height="260"
-  viewBox="0 0 1200 260"
+  height="250"
+  viewBox="0 0 1200 250"
   xmlns="http://www.w3.org/2000/svg"
 >
 
   <defs>
-
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260">
-      <stop offset="0%" stop-color="#080D18"/>
-      <stop offset="100%" stop-color="#111827"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="250">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#151923"/>
     </linearGradient>
 
-    <linearGradient id="gold">
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#F6C453"/>
-      <stop offset="100%" stop-color="#FFE29A"/>
+      <stop offset="50%" stop-color="#FFE29A"/>
+      <stop offset="100%" stop-color="#F6C453"/>
     </linearGradient>
 
-    <clipPath id="clip">
-      <rect width="1200" height="260" rx="24"/>
+    <clipPath id="contentClip">
+      <rect
+        x="20"
+        y="65"
+        width="1160"
+        height="165"
+        rx="15"
+      />
     </clipPath>
-
   </defs>
 
+  <!-- Background -->
+
   <rect
-    width="1200"
-    height="260"
+    x="1"
+    y="1"
+    width="1198"
+    height="248"
     rx="24"
-    fill="url(#bg)"
-    stroke="#30363D"
+    fill="url(#background)"
+    stroke="#273142"
+    stroke-width="2"
   />
 
-  <!-- Title -->
+  <!-- Header -->
 
   <text
     x="600"
-    y="48"
+    y="42"
     text-anchor="middle"
     fill="#F6C453"
     font-family="Arial, sans-serif"
-    font-size="24"
+    font-size="22"
     font-weight="700"
+    letter-spacing="3"
   >
     TECHNOLOGIES I BUILD WITH
   </text>
 
-  <!-- Top Moving Row -->
+  <!-- Decorative Line -->
 
-  <g clip-path="url(#clip)">
+  <rect
+    x="470"
+    y="55"
+    width="260"
+    height="2"
+    rx="1"
+    fill="url(#gold)"
+  >
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Moving Content -->
+
+  <g clip-path="url(#contentClip)">
+
+    <!-- Row One -->
 
     <g>
       <animateTransform
@@ -55,33 +87,32 @@
         type="translate"
         from="0 0"
         to="-1200 0"
-        dur="18s"
+        dur="20s"
         repeatCount="indefinite"
       />
 
       <text
         x="40"
-        y="115"
+        y="120"
         fill="#FFFFFF"
         font-family="monospace"
-        font-size="22"
+        font-size="21"
       >
-        JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS   ◆   JAVASCRIPT   ◆   HIBERNATE   ◆   REST APIs   ◆   JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS
+        JAVA  ◆  SPRING BOOT  ◆  REACT  ◆  NEXT.JS  ◆  JAVASCRIPT  ◆  HIBERNATE  ◆  REST APIs  ◆  JDBC  ◆  JAVA  ◆  SPRING BOOT  ◆  REACT
       </text>
 
       <text
         x="1240"
-        y="115"
+        y="120"
         fill="#FFFFFF"
         font-family="monospace"
-        font-size="22"
+        font-size="21"
       >
-        JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS   ◆   JAVASCRIPT   ◆   HIBERNATE   ◆   REST APIs
+        JAVA  ◆  SPRING BOOT  ◆  REACT  ◆  NEXT.JS  ◆  JAVASCRIPT  ◆  HIBERNATE  ◆  REST APIs  ◆  JDBC  ◆  JAVA  ◆  SPRING BOOT  ◆  REACT
       </text>
-
     </g>
 
-    <!-- Bottom Moving Row -->
+    <!-- Row Two -->
 
     <g>
       <animateTransform
@@ -89,52 +120,51 @@
         type="translate"
         from="-1200 0"
         to="0 0"
-        dur="20s"
+        dur="22s"
         repeatCount="indefinite"
       />
 
       <text
         x="40"
-        y="195"
+        y="190"
         fill="#F6C453"
         font-family="monospace"
         font-size="21"
       >
-        ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL   ◆   GIT   ◆   LINUX   ◆   POSTMAN   ◆   ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL
+        ANDROID  ◆  FIREBASE  ◆  MYSQL  ◆  POSTGRESQL  ◆  GIT  ◆  GITHUB  ◆  LINUX  ◆  POSTMAN  ◆  ANDROID  ◆  FIREBASE  ◆  MYSQL
       </text>
 
       <text
         x="1240"
-        y="195"
+        y="190"
         fill="#F6C453"
         font-family="monospace"
         font-size="21"
       >
-        ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL   ◆   GIT   ◆   LINUX   ◆   POSTMAN
+        ANDROID  ◆  FIREBASE  ◆  MYSQL  ◆  POSTGRESQL  ◆  GIT  ◆  GITHUB  ◆  LINUX  ◆  POSTMAN  ◆  ANDROID  ◆  FIREBASE  ◆  MYSQL
       </text>
-
     </g>
-
   </g>
 
-  <!-- Side fade overlays -->
+  <!-- Bottom Status -->
 
-  <rect
-    x="0"
-    y="65"
-    width="100"
-    height="180"
-    fill="url(#bg)"
-    opacity="0.9"
-  />
+  <circle cx="40" cy="225" r="4" fill="#28C840">
+    <animate
+      attributeName="opacity"
+      values="1;0.3;1"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
 
-  <rect
-    x="1100"
-    y="65"
-    width="100"
-    height="180"
-    fill="url(#bg)"
-    opacity="0.9"
-  />
+  <text
+    x="54"
+    y="230"
+    fill="#718096"
+    font-family="monospace"
+    font-size="12"
+  >
+    continuously learning and building
+  </text>
 
 </svg>

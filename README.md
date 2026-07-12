@@ -1,11 +1,21 @@
-<!-- ===================== CUSTOM ANIMATED HERO ===================== -->
+<!-- =========================================================
+                     ANAND SAGAR — GITHUB PROFILE
+========================================================== -->
+
+<!-- ===================== ANIMATED HERO ===================== -->
 
 <p align="center">
-  <img
-    src="./assets/animated-hero.svg"
-    width="100%"
-    alt="Anand Sagar — Full Stack Developer"
-  />
+  <a href="REPLACE_WITH_YOUR_PORTFOLIO_URL">
+    <img
+      src="./assets/animated-hero.svg"
+      width="100%"
+      alt="Anand Sagar — Full Stack Developer"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Click the terminal to explore my portfolio</sub>
 </p>
 
 <!-- ===================== ABOUT ===================== -->
@@ -18,28 +28,29 @@
 
 <p align="center">
   I work across frontend, backend, Android, and AI-powered applications —
-  transforming real-world requirements into scalable and user-focused software.
+  transforming real-world requirements into scalable, maintainable,
+  and user-focused software.
 </p>
 
 <p align="center">
   💼 Full Stack Developer
-  &nbsp; • &nbsp;
-  🎓 B.Tech CSE
-  &nbsp; • &nbsp;
+  &nbsp;&nbsp; • &nbsp;&nbsp;
+  ☕ Java Developer
+  &nbsp;&nbsp; • &nbsp;&nbsp;
   🚀 9+ Projects
-  &nbsp; • &nbsp;
+  &nbsp;&nbsp; • &nbsp;&nbsp;
   📍 India
 </p>
 
 <br>
 
-<!-- ===================== ANIMATED TECH STACK ===================== -->
+<!-- ===================== TECH STACK ===================== -->
 
 <p align="center">
   <img
     src="./assets/tech-stack.svg"
     width="100%"
-    alt="Anand Sagar Technology Stack"
+    alt="Technologies used by Anand Sagar"
   />
 </p>
 
@@ -74,27 +85,24 @@
 <br>
 
 <p align="center">
-
   <a href="https://github.com/anandsagar6/Driver_Application">
     <img
       src="./assets/rideer-card.svg"
       width="48%"
-      alt="Rideer Project"
+      alt="Rideer — Ride Booking Android Application"
     />
   </a>
-
-  <a href="https://github.com/anandsagar6">
+  &nbsp;
+  <a href="REPLACE_WITH_AI_LOCATION_FINDER_REPOSITORY_URL">
     <img
       src="./assets/ai-location-card.svg"
       width="48%"
       alt="AI Location Finder"
     />
   </a>
-
 </p>
 
 <p align="center">
-
   <a href="https://github.com/anandsagar6/Email-Assistance">
     <img
       src="./assets/email-assistant-card.svg"
@@ -102,58 +110,84 @@
       alt="AI Email Assistant"
     />
   </a>
-
+  &nbsp;
   <a href="https://github.com/anandsagar6/NewsDroid">
     <img
       src="./assets/newsdroid-card.svg"
       width="48%"
-      alt="NewsDroid"
+      alt="NewsDroid Android Application"
     />
   </a>
+</p>
 
+<p align="center">
+  <sub>Click a project card to explore the repository</sub>
 </p>
 
 <br>
 
-<!-- ===================== PROFESSIONAL JOURNEY ===================== -->
+<!-- ===================== EXPERIENCE ===================== -->
 
 <h2 align="center">💼 Professional Journey</h2>
 
-<div align="center">
+<table>
+  <tr>
+    <td width="22%" align="center">
+      <b>Dec 2025</b>
+      <br>
+      <sub>Present</sub>
+    </td>
+    <td width="78%">
+      <h3>🚀 Full Stack Developer</h3>
+      <b>Innovative DigiTech Services Pvt. Ltd.</b>
+      <br><br>
+      Building job search and recruitment platform features using modern
+      frontend and backend technologies.
+      <br><br>
+      <code>Java</code>
+      <code>React</code>
+      <code>Spring Boot</code>
+      <code>Hibernate</code>
+      <code>REST APIs</code>
+    </td>
+  </tr>
 
-### 🚀 Full Stack Developer
+  <tr>
+    <td width="22%" align="center">
+      <b>2025</b>
+    </td>
+    <td width="78%">
+      <h3>💻 Trainee Engineer</h3>
+      <b>Evision Technoserve Pvt. Ltd.</b>
+      <br><br>
+      Developed responsive interfaces, integrated APIs, and contributed
+      to real-world product features.
+      <br><br>
+      <code>React</code>
+      <code>JavaScript</code>
+      <code>REST APIs</code>
+    </td>
+  </tr>
 
-**Innovative DigiTech Services Pvt. Ltd.**
-
-`December 2025 — Present`
-
-Building recruitment and job-search platform features with:
-
-`Java` • `React` • `Spring Boot` • `Hibernate` • `REST APIs`
-
----
-
-### 💻 Trainee Engineer
-
-**Evision Technoserve Pvt. Ltd.**
-
-Worked on responsive frontend interfaces, API integrations,
-and real-world product features.
-
-`React` • `JavaScript` • `REST APIs`
-
----
-
-### 📱 App Developer
-
-**Anay Group**
-
-Built Android application features with real-time interactions
-and Firebase integration.
-
-`Java` • `Android` • `Firebase`
-
-</div>
+  <tr>
+    <td width="22%" align="center">
+      <b>Oct 2024</b>
+      <br>
+      <sub>Feb 2025</sub>
+    </td>
+    <td width="78%">
+      <h3>📱 App Developer</h3>
+      <b>Anay Group</b>
+      <br><br>
+      Built Android application features with real-time interactions
+      and Firebase integration.
+      <br><br>
+      <code>Java</code>
+      <code>Android</code>
+      <code>Firebase</code>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -162,24 +196,34 @@ and Firebase integration.
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-
   <img
     width="49%"
     src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&hide_border=true&bg_color=0D1117&title_color=F6C453&icon_color=F6C453&text_color=C9D1D9&rank_icon=github"
-    alt="GitHub Statistics"
+    alt="Anand Sagar GitHub Statistics"
   />
-
   <img
-    width="37%"
+    width="41%"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&hide_border=true&bg_color=0D1117&title_color=F6C453&text_color=C9D1D9"
-    alt="Most Used Languages"
+    alt="Anand Sagar Most Used Languages"
   />
-
 </p>
 
 <br>
 
-<!-- ===================== ACTIVITY GRAPH ===================== -->
+<!-- ===================== STREAK ===================== -->
+
+<h2 align="center">🔥 Development Consistency</h2>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=anandsagar6&hide_border=true&background=0D1117&stroke=30363D&ring=F6C453&fire=F6C453&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F6C453&sideLabels=C9D1D9&dates=8B949E"
+    alt="Anand Sagar GitHub Streak"
+  />
+</p>
+
+<br>
+
+<!-- ===================== ACTIVITY ===================== -->
 
 <h2 align="center">📈 Contribution Activity</h2>
 
@@ -187,37 +231,31 @@ and Firebase integration.
   <img
     width="100%"
     src="https://github-readme-activity-graph.vercel.app/graph?username=anandsagar6&bg_color=0D1117&color=F6C453&line=F6C453&point=FFFFFF&area=true&hide_border=true"
-    alt="Contribution Activity"
+    alt="Anand Sagar Contribution Activity"
   />
 </p>
 
 <br>
 
-<!-- ===================== CONTRIBUTION SNAKE ===================== -->
+<!-- ===================== SNAKE ===================== -->
 
 <h2 align="center">🐍 Contribution Journey</h2>
 
 <p align="center">
-
   <picture>
-
     <source
       media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg"
     />
-
     <source
       media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
     />
-
     <img
       src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
-      alt="GitHub Contribution Snake"
+      alt="Anand Sagar Contribution Snake"
     />
-
   </picture>
-
 </p>
 
 <br>
@@ -231,7 +269,6 @@ and Firebase integration.
 </p>
 
 <p align="center">
-
   <a href="https://www.linkedin.com/in/anandsagar0006/">
     <img
       src="https://img.shields.io/badge/LinkedIn-Anand%20Sagar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
@@ -259,7 +296,6 @@ and Firebase integration.
       alt="Email"
     />
   </a>
-
 </p>
 
 <br>
