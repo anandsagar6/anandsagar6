@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="690" viewBox="0 0 1180 690" role="img" aria-labelledby="title desc">
+<title id="title">Anand Sagar — Professional Journey</title>
+<desc id="desc">Animated professional experience timeline for Anand Sagar.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#07101f"/><stop offset=".55" stop-color="#0b1426"/><stop offset="1" stop-color="#0d1b2d"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7c3aed"><animate attributeName="stop-color" values="#7c3aed;#22d3ee;#10b981;#7c3aed" dur="9s" repeatCount="indefinite"/></stop>
+    <stop offset=".5" stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#10b981;#7c3aed;#22d3ee" dur="9s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#10b981"><animate attributeName="stop-color" values="#10b981;#7c3aed;#22d3ee;#10b981" dur="9s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <radialGradient id="orb"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".42"/></filter>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect width="1180" height="690" rx="28"/></clipPath>
+  <style>
+    .ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .title{fill:#f8fafc;font-weight:750}.muted{fill:#94a3b8}.body{fill:#cbd5e1}
+    .card{fill:#0f172a;fill-opacity:.84;stroke:#fff;stroke-opacity:.08}
+    .tag{fill:#111c31;stroke:#fff;stroke-opacity:.08}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1180" height="690" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="70" r="260" fill="url(#orb)"><animate attributeName="cx" values="1030;920;1030" dur="14s" repeatCount="indefinite"/></circle>
+  <circle cx="130" cy="650" r="240" fill="url(#orb)" opacity=".55"><animate attributeName="cy" values="650;570;650" dur="16s" repeatCount="indefinite"/></circle>
+
+  <text x="58" y="62" class="mono muted" font-size="11" letter-spacing="2">CAREER.TIMELINE // 2023 → PRESENT</text>
+  <text x="58" y="104" class="ui title" font-size="32">Professional Journey</text>
+  <text x="58" y="134" class="ui muted" font-size="14">A progression from Android development to full-stack product engineering.</text>
+
+  <!-- animated timeline -->
+  <rect x="88" y="181" width="3" height="430" rx="2" fill="#1e293b"/>
+  <rect x="88" y="181" width="3" height="0" rx="2" fill="url(#accent)">
+    <animate attributeName="height" from="0" to="430" dur="2.4s" begin=".3s" fill="freeze"/>
+  </rect>
+
+  <!-- CARD 1 -->
+  <g opacity="0" transform="translate(0 14)">
+    <animate attributeName="opacity" to="1" dur=".55s" begin=".45s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur=".55s" begin=".45s" fill="freeze"/>
+    <circle cx="89.5" cy="218" r="8" fill="#10b981" filter="url(#glow)"><animate attributeName="r" values="7;10;7" dur="2.2s" repeatCount="indefinite"/></circle>
+    <rect x="125" y="174" width="997" height="120" rx="18" class="card" filter="url(#shadow)"/>
+    <text x="154" y="208" class="ui title" font-size="20">Full Stack Developer</text>
+    <text x="154" y="234" class="ui" fill="#22d3ee" font-size="14" font-weight="650">Innovative DigiTech Services Pvt. Ltd.</text>
+    <text x="1084" y="208" text-anchor="end" class="mono muted" font-size="11">DEC 2025 — PRESENT</text>
+    <text x="154" y="260" class="ui body" font-size="13">Building recruitment-platform features across React interfaces, Java services, REST APIs and database workflows.</text>
+    <g transform="translate(154 271)" class="mono" font-size="10">
+      <rect width="62" height="25" rx="12.5" class="tag"/><text x="31" y="16" text-anchor="middle" fill="#f8fafc">React.js</text>
+      <g transform="translate(72)"><rect width="50" height="25" rx="12.5" class="tag"/><text x="25" y="16" text-anchor="middle" fill="#f8fafc">Java</text></g>
+      <g transform="translate(132)"><rect width="88" height="25" rx="12.5" class="tag"/><text x="44" y="16" text-anchor="middle" fill="#f8fafc">Spring Boot</text></g>
+      <g transform="translate(230)"><rect width="76" height="25" rx="12.5" class="tag"/><text x="38" y="16" text-anchor="middle" fill="#f8fafc">Hibernate</text></g>
+      <g transform="translate(316)"><rect width="72" height="25" rx="12.5" class="tag"/><text x="36" y="16" text-anchor="middle" fill="#f8fafc">REST APIs</text></g>
+    </g>
+  </g>
+
+  <!-- CARD 2 -->
+  <g opacity="0" transform="translate(0 14)">
+    <animate attributeName="opacity" to="1" dur=".55s" begin=".85s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur=".55s" begin=".85s" fill="freeze"/>
+    <circle cx="89.5" cy="347" r="8" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="2.6s" repeatCount="indefinite"/></circle>
+    <rect x="125" y="309" width="997" height="103" rx="18" class="card"/>
+    <text x="154" y="343" class="ui title" font-size="19">Trainee Engineer</text>
+    <text x="154" y="369" class="ui" fill="#22d3ee" font-size="14" font-weight="650">Evision Technoserve Pvt. Ltd.</text>
+    <text x="1084" y="343" text-anchor="end" class="mono muted" font-size="11">MAR 2025 — 2025</text>
+    <text x="154" y="394" class="ui body" font-size="13">Developed React modules, integrated backend APIs and contributed to responsive client-facing product interfaces.</text>
+  </g>
+
+  <!-- CARD 3 -->
+  <g opacity="0" transform="translate(0 14)">
+    <animate attributeName="opacity" to="1" dur=".55s" begin="1.25s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur=".55s" begin="1.25s" fill="freeze"/>
+    <circle cx="89.5" cy="466" r="8" fill="#7c3aed" filter="url(#glow)"><animate attributeName="opacity" values=".5;1;.5" dur="3s" repeatCount="indefinite"/></circle>
+    <rect x="125" y="428" width="997" height="103" rx="18" class="card"/>
+    <text x="154" y="462" class="ui title" font-size="19">App Developer</text>
+    <text x="154" y="488" class="ui" fill="#a78bfa" font-size="14" font-weight="650">Anay Group</text>
+    <text x="1084" y="462" text-anchor="end" class="mono muted" font-size="11">OCT 2024 — FEB 2025</text>
+    <text x="154" y="513" class="ui body" font-size="13">Built Android features with Firebase-powered real-time functionality, authentication and dynamic user workflows.</text>
+  </g>
+
+  <!-- CARD 4 -->
+  <g opacity="0" transform="translate(0 14)">
+    <animate attributeName="opacity" to="1" dur=".55s" begin="1.65s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur=".55s" begin="1.65s" fill="freeze"/>
+    <circle cx="89.5" cy="585" r="8" fill="#f59e0b" filter="url(#glow)"><animate attributeName="opacity" values=".5;1;.5" dur="3.4s" repeatCount="indefinite"/></circle>
+    <rect x="125" y="547" width="997" height="103" rx="18" class="card"/>
+    <text x="154" y="581" class="ui title" font-size="19">App Developer Intern</text>
+    <text x="154" y="607" class="ui" fill="#fbbf24" font-size="14" font-weight="650">Bharat Intern</text>
+    <text x="1084" y="581" text-anchor="end" class="mono muted" font-size="11">JUL 2023 — AUG 2023</text>
+    <text x="154" y="632" class="ui body" font-size="13">Built Java-based Android applications and strengthened practical mobile development fundamentals.</text>
+  </g>
+
+  <rect x="1" y="1" width="1178" height="688" rx="27" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-opacity=".55" stroke-dasharray="190 980">
+    <animate attributeName="stroke-dashoffset" values="0;-2340" dur="10s" repeatCount="indefinite"/>
+  </rect>
+</g>
+</svg>

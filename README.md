@@ -1,6 +1,4 @@
-<!-- =========================================================
-     ANAND SAGAR — GITHUB PROFILE
-========================================================== -->
+<!-- ANAND SAGAR — GITHUB PROFILE -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
@@ -15,8 +13,6 @@
 I build software across the complete product stack — from responsive user interfaces and reusable frontend components to backend services, APIs, databases, Android applications, and real-time systems.
 
 Currently, I work on a **job search and recruitment platform**, contributing across **React.js frontend development and Java backend engineering**.
-
-I enjoy solving problems where **product thinking, user experience, and engineering** come together.
 
 > **My approach:** Understand the problem → Design the solution → Build cleanly → Ship → Improve
 
@@ -63,94 +59,29 @@ I enjoy solving problems where **product thinking, user experience, and engineer
 
 <img src="./assets/rideer-card.svg" alt="Rideer — Ride Booking Android Platform" width="100%">
 
-A real-time Android ride-booking platform built around complete rider and driver workflows.
-
-**Key engineering work:**
-
-- Real-time ride requests and status synchronization
-- Live driver location tracking
-- Pickup and destination mapping
-- Route visualization with OpenStreetMap
-- Firebase Realtime Database integration
-- Customer ride PIN verification
-- Automatic ride cancellation handling
+A real-time Android ride-booking platform with live driver tracking, route visualization, Firebase-powered updates, ride status management, customer PIN verification, and complete rider/driver workflows.
 
 <br>
-
----
 
 ### 🤖 Email Assistant Extension
 
 <img src="./assets/email-assistant-card.svg" alt="AI Email Assistant Extension" width="100%">
 
-An AI-powered browser extension that connects a Java backend with an AI model to generate contextual email responses.
-
-**Key engineering work:**
-
-- Java and Spring Boot backend
-- Browser-side JavaScript integration
-- REST-based frontend/backend communication
-- Context-aware email response generation
-- Gemini AI integration
+An AI-powered browser extension with a Java and Spring Boot backend, browser-side JavaScript integration, REST communication, and contextual email response generation using Gemini AI.
 
 <br>
-
----
 
 ### 📰 News Droid
 
 <img src="./assets/newsdroid-card.svg" alt="News Droid Android Application" width="100%">
 
-A native Android news application focused on delivering a clean and simple mobile news-reading experience.
-
-**Key engineering work:**
-
-- Native Android development
-- Java-based application logic
-- XML user interfaces
-- Mobile-first user experience
+A native Android news application built with Java and XML, focused on a clean and simple mobile news-reading experience.
 
 <br>
 
 ## 💼 Professional Journey
 
-### Full Stack Developer
-
-**Innovative DigiTech Services Pvt. Ltd.** · `Dec 2025 — Present`
-
-Working on a large-scale job search and recruitment platform across the frontend and backend stack.
-
-`React.js` `Java` `Spring Boot` `Hibernate` `REST APIs`
-
-<br>
-
-### Trainee Engineer
-
-**Evision Technoserve Pvt. Ltd.** · `Mar 2025 — 2025`
-
-Developed frontend modules, integrated backend APIs, and contributed to responsive client-facing product interfaces.
-
-`React.js` `JavaScript` `REST APIs`
-
-<br>
-
-### App Developer
-
-**Anay Group** · `Oct 2024 — Feb 2025`
-
-Built Android application features with real-time Firebase functionality, authentication, and dynamic user workflows.
-
-`Java` `Android` `Firebase`
-
-<br>
-
-### App Developer Intern
-
-**Bharat Intern** · `Jul 2023 — Aug 2023`
-
-Built Java-based Android applications and strengthened practical mobile development fundamentals.
-
-`Java` `Android` `XML`
+<img src="./assets/experience.svg" alt="Anand Sagar Professional Experience Timeline" width="100%">
 
 <br>
 
@@ -160,7 +91,6 @@ Built Java-based Android applications and strengthened practical mobile developm
 public class EngineeringMindset {
 
     public String build(String problem) {
-
         understand(problem);
         designForMaintainability();
         buildForUsers();
@@ -181,16 +111,11 @@ I care about more than making a feature technically work. I try to understand ho
 
 <p align="center">
 
-`System Design`
-&nbsp;&nbsp;•&nbsp;&nbsp;
-`Scalable Backend Systems`
-&nbsp;&nbsp;•&nbsp;&nbsp;
-`Microservices`
-&nbsp;&nbsp;•&nbsp;&nbsp;
-`API Design`
-&nbsp;&nbsp;•&nbsp;&nbsp;
-`Real-Time Systems`
-&nbsp;&nbsp;•&nbsp;&nbsp;
+`System Design` &nbsp;•&nbsp;
+`Scalable Backend Systems` &nbsp;•&nbsp;
+`Microservices` &nbsp;•&nbsp;
+`API Design` &nbsp;•&nbsp;
+`Real-Time Systems` &nbsp;•&nbsp;
 `Applied AI`
 
 </p>
@@ -200,32 +125,51 @@ I care about more than making a feature technically work. I try to understand ho
 ## 📊 GitHub Activity
 
 <div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Anand Sagar GitHub Statistics">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&hide_border=true&theme=transparent" alt="Anand Sagar Most Used Languages">
-
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"
+    alt="Anand Sagar GitHub Statistics"
+  >
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&hide_border=true&theme=transparent"
+    alt="Anand Sagar Most Used Languages"
+  >
 </div>
 
 <br>
 
 <div align="center">
-
-<img width="70%" src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true" alt="Anand Sagar GitHub Contribution Streak">
-
+  <img
+    width="70%"
+    src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true"
+    alt="Anand Sagar GitHub Contribution Streak"
+  >
 </div>
 
 <br>
 
-## 🐍 Contributions
+## 🐍 Contribution Graph
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+    >
+    <img
+      src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+      alt="Anand Sagar GitHub contribution snake"
+      width="100%"
+    >
   </picture>
 </p>
+
+> If the contribution snake is blank after updating the workflow, open **Actions → Generate Contribution Snake → Run workflow** once. The workflow will create/update the `output` branch.
 
 <br>
 
@@ -240,15 +184,12 @@ I'm interested in building useful products, solving meaningful engineering probl
 <a href="mailto:anandsagar0006@gmail.com">
   <img src="https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
-
 <a href="https://www.linkedin.com/in/anandsagar0006/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-
 <a href="https://leetcode.com/u/anandsagar0006/">
   <img src="https://img.shields.io/badge/LeetCode-Solve-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
 </a>
-
 <a href="https://www.codechef.com/users/anandsagar0006">
   <img src="https://img.shields.io/badge/CodeChef-Compete-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef">
 </a>
