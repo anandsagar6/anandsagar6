@@ -1,39 +1,55 @@
-<!-- ===================== ANIMATED HEADER ===================== -->
+<!-- =========================================================
+                     ANAND SAGAR — GITHUB PROFILE
+========================================================== -->
+
+<!-- ===================== ANIMATED HERO ===================== -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:f6c453&height=220&section=header&text=Anand%20Sagar&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer&descAlignY=55&descSize=20"
-    alt="Anand Sagar Header"
+    src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0B1120,45:111827,100:F6C453&text=Anand%20Sagar&fontColor=FFFFFF&fontSize=52&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20Building%20Modern%20Digital%20Products&descAlignY=57&descSize=17&animation=fadeIn"
+    alt="Anand Sagar"
   />
 </p>
 
 <!-- ===================== TYPING ANIMATION ===================== -->
 
 <p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=F6C453&center=true&vCenter=true&repeat=true&width=800&height=55&lines=Full+Stack+Developer+%F0%9F%92%BB;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+React;Building+Scalable+Web+Applications+%F0%9F%9A%80;Android+%E2%80%A2+Firebase+%E2%80%A2+REST+APIs;Turning+Ideas+Into+Real+Products+%E2%9C%A8"
+      alt="Typing Animation"
+    />
+  </a>
+</p>
+
+<p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=F6C453&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%F0%9F%92%BB;Java+%7C+Spring+Boot+%7C+React;Android+%7C+Firebase+Developer+%F0%9F%93%B1;Building+Modern+Digital+Products+%F0%9F%9A%80;Always+Learning.+Always+Building."
-    alt="Typing Animation"
+    src="https://komarev.com/ghpvc/?username=anandsagar6&label=PROFILE+VIEWS&color=F6C453&style=flat-square"
+    alt="Profile Views"
   />
 </p>
 
 <br>
 
-<!-- ===================== ABOUT ME ===================== -->
+<!-- ===================== INTRODUCTION ===================== -->
 
 <h2 align="center">👨‍💻 About Me</h2>
 
 <p align="center">
-  I'm a <b>Full Stack Developer</b> focused on building scalable web applications,
-  backend systems, Android applications, and polished user experiences.
+  <b>Building modern digital products with code, product thinking, and clean engineering.</b>
 </p>
 
 <p align="center">
-  I enjoy turning real-world requirements into
-  <b>clean, maintainable, and user-focused software.</b>
+  I'm a Full Stack Developer focused on building scalable web applications,
+  backend systems, Android applications, and polished user experiences.
+  I enjoy transforming real-world requirements into clean, maintainable,
+  and user-focused software.
 </p>
 
 <br>
+
+<!-- ===================== DEVELOPER PROFILE ===================== -->
 
 ```java
 public class AnandSagar {
@@ -41,49 +57,47 @@ public class AnandSagar {
     private final String role = "Full Stack Developer";
 
     private final String[] languages = {
-        "Java",
-        "JavaScript",
-        "SQL"
+        "Java", "JavaScript", "SQL"
     };
 
     private final String[] backend = {
-        "Spring Boot",
-        "Hibernate",
-        "REST APIs",
-        "JDBC"
+        "Spring Boot", "Spring MVC",
+        "Hibernate", "JDBC", "REST APIs"
     };
 
     private final String[] frontend = {
-        "React",
-        "Next.js",
-        "HTML",
-        "CSS"
+        "React", "Next.js",
+        "HTML", "CSS", "Tailwind CSS"
     };
 
-    private final String currentFocus =
-        "Building scalable digital products";
+    private final String[] mobile = {
+        "Android", "Firebase"
+    };
 
-    private final boolean alwaysLearning = true;
+    public String currentFocus() {
+        return "Building scalable digital products";
+    }
+
+    public boolean alwaysLearning() {
+        return true;
+    }
 }
 ```
 
 <br>
 
-<!-- ===================== CURRENT FOCUS ===================== -->
+<!-- ===================== QUICK OVERVIEW ===================== -->
 
-<h2 align="center">⚡ Current Focus</h2>
+<h2 align="center">⚡ Developer Snapshot</h2>
 
-<p align="center">
-  💼 Working as a <b>Full Stack Developer</b>
-  <br><br>
-  🌱 Improving my skills in <b>Spring Boot, React & Microservices</b>
-  <br><br>
-  📱 Experienced in <b>Android Development with Java & Firebase</b>
-  <br><br>
-  🤖 Interested in <b>AI-powered applications and Backend Engineering</b>
-  <br><br>
-  💬 Ask me about <b>Java, Spring Boot, React, Android, JDBC & REST APIs</b>
-</p>
+<div align="center">
+
+| 💼 Current Role | 🚀 Current Focus | 📱 Mobile | 🤖 Interests |
+|:---:|:---:|:---:|:---:|
+| Full Stack Developer | Scalable Web Applications | Android & Firebase | AI-powered Applications |
+| Java & React | Spring Boot & Microservices | Real-time Apps | Backend Engineering |
+
+</div>
 
 <br>
 
@@ -91,16 +105,29 @@ public class AnandSagar {
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
-<h3 align="center">Languages & Frontend</h3>
+<p align="center">
+  Technologies I use to design, build, and ship digital products.
+</p>
+
+<h3 align="center">Languages</h3>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=java,js,html,css,react,nextjs,bootstrap,tailwind"
-    alt="Languages and Frontend Technologies"
+    src="https://skillicons.dev/icons?i=java,js,html,css"
+    alt="Programming Languages"
   />
 </p>
 
-<h3 align="center">Backend & Database</h3>
+<h3 align="center">Frontend</h3>
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=react,nextjs,bootstrap,tailwind"
+    alt="Frontend Technologies"
+  />
+</p>
+
+<h3 align="center">Backend & Databases</h3>
 
 <p align="center">
   <img
@@ -122,132 +149,69 @@ public class AnandSagar {
 
 <!-- ===================== EXPERIENCE ===================== -->
 
-<h2 align="center">💼 Experience</h2>
-
-### 🚀 Full Stack Developer
-
-**Innovative DigiTech Services Pvt. Ltd.**  
-📅 `December 2025 — Present`
-
-- Developing job search and recruitment platform features.
-- Building responsive frontend interfaces with React.
-- Working with Java, Spring Boot, Hibernate, and REST APIs.
-- Contributing to scalable and maintainable product features.
-
-**Tech:** `React` • `Java` • `Spring Boot` • `Hibernate` • `REST APIs`
-
----
-
-### 💻 Trainee Engineer
-
-**Evision Technoserve Pvt. Ltd.**
-
-- Developed responsive user interfaces.
-- Worked with React applications and API integrations.
-- Contributed to product feature development.
-- Collaborated on real-world software projects.
-
-**Tech:** `React` • `JavaScript` • `REST APIs`
-
----
-
-### 📱 App Developer
-
-**Anay Group**  
-📅 `October 2024 — February 2025`
-
-- Built Android application features using Java.
-- Integrated Firebase Authentication and Realtime Database.
-- Worked on real-time application interactions.
-- Focused on mobile UI and user experience.
-
-**Tech:** `Java` • `Android` • `Firebase`
-
-<br>
-
-<!-- ===================== FEATURED PROJECTS ===================== -->
-
-<h2 align="center">🚀 Featured Projects</h2>
+<h2 align="center">💼 Professional Journey</h2>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🚕 Rideer
-
-A production-style Android ride-booking application with a complete rider and driver workflow.
-
-**Features**
-
-- 📍 Real-time location tracking
-- 🚗 Driver tracking
-- 🔥 Firebase Realtime Database
-- 🗺️ Route visualization
-- 🔄 Complete ride lifecycle
-
-**Tech Stack**
-
-`Java` `Android` `Firebase` `Maps`
-
+<td width="22%" align="center">
+  <b>Dec 2025 — Present</b>
 </td>
+<td width="78%">
 
-<td width="50%" valign="top">
+### 🚀 Full Stack Developer
+**Innovative DigiTech Services Pvt. Ltd.**
 
-### 🤖 AI Location Finder
+Building job search and recruitment platform features using modern frontend and backend technologies.
 
-An AI-powered application that analyzes images and identifies possible locations.
-
-**Features**
-
-- 🖼️ Image analysis
-- 🤖 Gemini AI integration
-- ☕ Spring Boot backend
-- 🌍 Latitude & longitude detection
-- 📱 Android integration
-
-**Tech Stack**
-
-`Java` `Spring Boot` `Gemini AI` `Android`
+`Java` `React` `Spring Boot` `Hibernate` `REST APIs`
 
 </td>
 </tr>
 
 <tr>
-<td width="50%" valign="top">
+<td width="22%" align="center">
+  <b>2025</b>
+</td>
+<td width="78%">
 
-### 📧 AI Email Assistant
+### 💻 Trainee Engineer
+**Evision Technoserve Pvt. Ltd.**
 
-A browser extension for generating intelligent email responses using AI.
+Developed responsive interfaces, integrated APIs, and contributed to real-world product features.
 
-**Features**
-
-- 🤖 AI-generated email responses
-- ☕ Spring Boot backend
-- 🌐 Browser extension
-- ⚡ REST API integration
-
-**Tech Stack**
-
-`Spring Boot` `JavaScript` `Gemini AI`
+`React` `JavaScript` `REST APIs`
 
 </td>
+</tr>
 
-<td width="50%" valign="top">
+<tr>
+<td width="22%" align="center">
+  <b>Oct 2024 — Feb 2025</b>
+</td>
+<td width="78%">
 
-### 📰 NewsDroid
+### 📱 App Developer
+**Anay Group**
 
-An Android news application developed using Java.
+Built Android application features with real-time interactions and Firebase integration.
 
-**Features**
+`Java` `Android` `Firebase`
 
-- 📰 News browsing
-- 📱 Native Android UI
-- 🔌 REST API integration
-- ⚡ Dynamic content
+</td>
+</tr>
 
-**Tech Stack**
+<tr>
+<td width="22%" align="center">
+  <b>Jul 2023 — Aug 2023</b>
+</td>
+<td width="78%">
 
-`Java` `Android` `REST API`
+### 🎓 App Developer Intern
+**Bharat Intern**
+
+Built Java-based Android applications and strengthened mobile development fundamentals.
+
+`Java` `Android`
 
 </td>
 </tr>
@@ -255,85 +219,230 @@ An Android news application developed using Java.
 
 <br>
 
-<!-- ===================== GITHUB STATS ===================== -->
+<!-- ===================== FEATURED PROJECTS ===================== -->
+
+<h2 align="center">🚀 Featured Projects</h2>
+
+<p align="center">
+  Selected projects across mobile, backend, full-stack, and AI-powered applications.
+</p>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🚕 Rideer</h3>
+
+<p align="center">
+  <b>Ride Booking Android Platform</b>
+</p>
+
+A production-style ride-booking application with a complete rider and driver workflow.
+
+**Highlights**
+
+- 📍 Real-time location tracking
+- 🚗 Live driver tracking
+- 🔥 Firebase Realtime Database
+- 🗺️ Route visualization
+- 🔄 Complete ride lifecycle
+
+<p align="center">
+  <code>Java</code>
+  <code>Android</code>
+  <code>Firebase</code>
+  <code>Maps</code>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🤖 AI Location Finder</h3>
+
+<p align="center">
+  <b>AI-powered Location Detection</b>
+</p>
+
+An intelligent application that analyzes images to identify possible real-world locations.
+
+**Highlights**
+
+- 🖼️ Image analysis
+- 🤖 Gemini AI integration
+- ☕ Spring Boot backend
+- 🌍 Coordinate detection
+- 📱 Android integration
+
+<p align="center">
+  <code>Java</code>
+  <code>Spring Boot</code>
+  <code>Gemini AI</code>
+  <code>Android</code>
+</p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">📧 AI Email Assistant</h3>
+
+<p align="center">
+  <b>AI-powered Browser Extension</b>
+</p>
+
+A browser extension that generates intelligent and contextual email responses.
+
+**Highlights**
+
+- 🤖 AI-generated responses
+- ☕ Spring Boot backend
+- 🌐 Browser extension
+- ⚡ REST API integration
+
+<p align="center">
+  <code>Spring Boot</code>
+  <code>JavaScript</code>
+  <code>Gemini AI</code>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">📰 NewsDroid</h3>
+
+<p align="center">
+  <b>Native Android News Application</b>
+</p>
+
+An Android news application for browsing dynamic news content through API integration.
+
+**Highlights**
+
+- 📰 Dynamic news browsing
+- 📱 Native Android UI
+- 🔌 REST API integration
+- ⚡ Responsive content
+
+<p align="center">
+  <code>Java</code>
+  <code>Android</code>
+  <code>REST API</code>
+</p>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<!-- ===================== GITHUB ANALYTICS ===================== -->
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"
-    alt="Anand Sagar GitHub Stats"
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F6C453&icon_color=F6C453&text_color=C9D1D9&rank_icon=github"
+    alt="GitHub Statistics"
   />
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"
+    width="37%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F6C453&text_color=C9D1D9"
     alt="Most Used Languages"
   />
 </p>
 
 <br>
 
-<!-- ===================== CODING STREAK ===================== -->
+<!-- ===================== STREAK ===================== -->
 
-<h2 align="center">🔥 Coding Streak</h2>
+<h2 align="center">🔥 Development Consistency</h2>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=anandsagar6&theme=tokyonight&hide_border=true&background=0D1117"
+    src="https://streak-stats.demolab.com?user=anandsagar6&theme=tokyonight&hide_border=true&background=0D1117&ring=F6C453&fire=F6C453&currStreakLabel=F6C453"
     alt="GitHub Streak"
   />
 </p>
 
 <br>
 
-<!-- ===================== CONTRIBUTION ACTIVITY ===================== -->
+<!-- ===================== ACTIVITY GRAPH ===================== -->
 
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
   <img
-    width="95%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=anandsagar6&theme=tokyo-night&hide_border=true"
-    alt="Contribution Activity Graph"
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=anandsagar6&bg_color=0D1117&color=F6C453&line=F6C453&point=FFFFFF&area=true&hide_border=true"
+    alt="GitHub Contribution Activity"
   />
 </p>
 
 <br>
 
-<!-- ===================== CONTRIBUTION SNAKE ===================== -->
+<!-- ===================== ANIMATED CONTRIBUTION SNAKE ===================== -->
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">🐍 Contribution Journey</h2>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg"
-    alt="GitHub Contribution Snake"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
 </p>
 
 <br>
 
-<!-- ===================== PROFILE VIEWS ===================== -->
+<!-- ===================== CURRENTLY BUILDING ===================== -->
+
+<h2 align="center">🔭 What I'm Focused On</h2>
 
 <p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=anandsagar6&label=Profile%20Views&color=f6c453&style=for-the-badge"
-    alt="Profile Views"
-  />
+  <code>Scalable Backend Systems</code>
+  &nbsp;•&nbsp;
+  <code>Modern React Applications</code>
+  &nbsp;•&nbsp;
+  <code>Microservices</code>
+  &nbsp;•&nbsp;
+  <code>AI Integration</code>
+  &nbsp;•&nbsp;
+  <code>Clean Architecture</code>
 </p>
 
 <br>
 
-<!-- ===================== CONNECT WITH ME ===================== -->
+<!-- ===================== CONNECT ===================== -->
 
-<h2 align="center">🌐 Connect With Me</h2>
+<h2 align="center">🌐 Let's Connect</h2>
+
+<p align="center">
+  Open to connecting with developers, teams, and people building interesting products.
+</p>
 
 <p align="center">
 
   <a href="https://www.linkedin.com/in/anandsagar0006/">
     <img
-      src="https://img.shields.io/badge/LinkedIn-Anand%20Sagar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+      src="https://img.shields.io/badge/LinkedIn-Anand%20Sagar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
     />
   </a>
@@ -347,15 +456,22 @@ An Android news application developed using Java.
 
   <a href="https://leetcode.com/u/anandsagar0006/">
     <img
-      src="https://img.shields.io/badge/LeetCode-Anand%20Sagar-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"
+      src="https://img.shields.io/badge/LeetCode-anandsagar0006-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"
       alt="LeetCode"
     />
   </a>
 
   <a href="https://www.codechef.com/users/anandsagar0006">
     <img
-      src="https://img.shields.io/badge/CodeChef-Anand%20Sagar-5B4638?style=for-the-badge&logo=codechef&logoColor=white"
+      src="https://img.shields.io/badge/CodeChef-anandsagar0006-5B4638?style=for-the-badge&logo=codechef&logoColor=white"
       alt="CodeChef"
+    />
+  </a>
+
+  <a href="mailto:anandsagar0006@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
     />
   </a>
 
@@ -363,20 +479,22 @@ An Android news application developed using Java.
 
 <br>
 
-<!-- ===================== QUOTE ===================== -->
+<!-- ===================== CLOSING ===================== -->
 
-<h3 align="center">
-  💡 "Building useful products, one commit at a time."
-</h3>
+<p align="center">
+  <b>💡 Building useful products, one commit at a time.</b>
+</p>
 
-<br>
+<p align="center">
+  <i>Code • Learn • Build • Improve • Repeat</i>
+</p>
 
 <!-- ===================== ANIMATED FOOTER ===================== -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:f6c453,50:1e293b,100:0f172a&height=120&section=footer"
-    alt="Footer"
+    src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:F6C453,45:111827,100:0B1120&animation=fadeIn"
+    alt="Animated Footer"
   />
 </p>
