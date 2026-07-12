@@ -122,18 +122,6 @@ I care about more than making a feature technically work. I try to understand ho
 
 <br>
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img
-    width="70%"
-    src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true"
-    alt="Anand Sagar GitHub Contribution Streak"
-  >
-</p>
-
-<br>
-
 ## 🐍 Contribution Graph
 
 <p align="center">
