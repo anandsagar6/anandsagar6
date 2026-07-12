@@ -121,14 +121,40 @@ I care about more than making a feature technically work. I try to understand ho
 </p>
 
 <br>
+
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true" alt="Anand Sagar GitHub Contribution Streak">
+  <img
+    width="70%"
+    src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true"
+    alt="Anand Sagar GitHub Contribution Streak"
+  >
 </p>
 
 <br>
 
+## 🐍 Contribution Graph
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+    >
+    <img
+      src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg"
+      alt="Anand Sagar GitHub Contribution Snake"
+      width="100%"
+    >
+  </picture>
+</p>
+
+<br>
 
 <div align="center">
   <img
