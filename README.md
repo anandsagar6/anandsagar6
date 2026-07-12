@@ -1,86 +1,262 @@
 <!-- =========================================================
      ANAND SAGAR — GITHUB PROFILE
-========================================================= -->
+========================================================== -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img
-    src="./assets/dark.svg"
-    alt="Anand Sagar — Full Stack Developer"
-    width="100%"
-  >
+  <img src="./assets/dark.svg" alt="Anand Sagar — Full Stack Developer" width="100%">
 </picture>
+
+<br>
+
+## 👨‍💻 Beyond the Terminal
+
+I build software across the complete product stack — from responsive user interfaces and reusable frontend components to backend services, APIs, databases, Android applications, and real-time systems.
+
+Currently, I work on a **job search and recruitment platform**, contributing across **React.js frontend development and Java backend engineering**.
+
+I enjoy solving problems where **product thinking, user experience, and engineering** come together.
+
+> **My approach:** Understand the problem → Design the solution → Build cleanly → Ship → Improve
+
+<br>
+
+## ⚡ Technologies I Work With
+
+<img src="./assets/tech-stack.svg" alt="Anand Sagar Tech Stack" width="100%">
+
+<br>
+
+## 💼 What I'm Working On
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚛️ Frontend Engineering
+
+- Building responsive interfaces with React.js
+- Creating reusable product components
+- Integrating frontend applications with REST APIs
+- Improving application workflows and user experience
+
+</td>
+<td width="50%" valign="top">
+
+### ☕ Backend Engineering
+
+- Working with Java backend services
+- Building features with Spring Boot and Hibernate
+- Implementing database-driven functionality
+- Working with microservice-oriented architecture
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 🚀 Featured Projects
+
+### 🚕 Rideer — Ride Booking Platform
+
+<img src="./assets/rideer-card.svg" alt="Rideer — Ride Booking Android Platform" width="100%">
+
+A real-time Android ride-booking platform built around complete rider and driver workflows.
+
+**Key engineering work:**
+
+- Real-time ride requests and status synchronization
+- Live driver location tracking
+- Pickup and destination mapping
+- Route visualization with OpenStreetMap
+- Firebase Realtime Database integration
+- Customer ride PIN verification
+- Automatic ride cancellation handling
+
+<br>
+
+---
+
+### 🤖 Email Assistant Extension
+
+<img src="./assets/email-assistant-card.svg" alt="AI Email Assistant Extension" width="100%">
+
+An AI-powered browser extension that connects a Java backend with an AI model to generate contextual email responses.
+
+**Key engineering work:**
+
+- Java and Spring Boot backend
+- Browser-side JavaScript integration
+- REST-based frontend/backend communication
+- Context-aware email response generation
+- Gemini AI integration
+
+<br>
+
+---
+
+### 📰 News Droid
+
+<img src="./assets/newsdroid-card.svg" alt="News Droid Android Application" width="100%">
+
+A native Android news application focused on delivering a clean and simple mobile news-reading experience.
+
+**Key engineering work:**
+
+- Native Android development
+- Java-based application logic
+- XML user interfaces
+- Mobile-first user experience
+
+<br>
+
+## 💼 Professional Journey
+
+### Full Stack Developer
+
+**Innovative DigiTech Services Pvt. Ltd.** · `Dec 2025 — Present`
+
+Working on a large-scale job search and recruitment platform across the frontend and backend stack.
+
+`React.js` `Java` `Spring Boot` `Hibernate` `REST APIs`
+
+<br>
+
+### Trainee Engineer
+
+**Evision Technoserve Pvt. Ltd.** · `Mar 2025 — 2025`
+
+Developed frontend modules, integrated backend APIs, and contributed to responsive client-facing product interfaces.
+
+`React.js` `JavaScript` `REST APIs`
+
+<br>
+
+### App Developer
+
+**Anay Group** · `Oct 2024 — Feb 2025`
+
+Built Android application features with real-time Firebase functionality, authentication, and dynamic user workflows.
+
+`Java` `Android` `Firebase`
+
+<br>
+
+### App Developer Intern
+
+**Bharat Intern** · `Jul 2023 — Aug 2023`
+
+Built Java-based Android applications and strengthened practical mobile development fundamentals.
+
+`Java` `Android` `XML`
+
+<br>
+
+## 🧠 How I Think About Engineering
+
+```java
+public class EngineeringMindset {
+
+    public String build(String problem) {
+
+        understand(problem);
+        designForMaintainability();
+        buildForUsers();
+        ship();
+        learn();
+        improve();
+
+        return "Useful software that can evolve.";
+    }
+}
+```
+
+I care about more than making a feature technically work. I try to understand how it fits into the product, how users interact with it, and how easily the code can evolve later.
+
+<br>
+
+## 🔭 Currently Exploring
+
+<p align="center">
+
+`System Design`
+&nbsp;&nbsp;•&nbsp;&nbsp;
+`Scalable Backend Systems`
+&nbsp;&nbsp;•&nbsp;&nbsp;
+`Microservices`
+&nbsp;&nbsp;•&nbsp;&nbsp;
+`API Design`
+&nbsp;&nbsp;•&nbsp;&nbsp;
+`Real-Time Systems`
+&nbsp;&nbsp;•&nbsp;&nbsp;
+`Applied AI`
+
+</p>
+
+<br>
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Anand Sagar GitHub Statistics">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&hide_border=true&theme=transparent" alt="Anand Sagar Most Used Languages">
+
+</div>
 
 <br>
 
 <div align="center">
 
-# Hi, I'm Anand Sagar 👋
+<img width="70%" src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true" alt="Anand Sagar GitHub Contribution Streak">
 
-### Full Stack Developer · Java · React · Spring Boot · Android
+</div>
 
-I build scalable web applications, backend systems, mobile applications,  
-and polished digital products with clean, maintainable engineering.
+<br>
+
+## 🐍 Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/anandsagar6/anandsagar6/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+<br>
+
+<div align="center">
+
+## 🤝 Let's Connect
+
+I'm interested in building useful products, solving meaningful engineering problems, and continuing to grow across the full stack.
 
 <br>
 
 <a href="mailto:anandsagar0006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
+
 <a href="https://www.linkedin.com/in/anandsagar0006/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="https://github.com/anandsagar6">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
+
 <a href="https://leetcode.com/u/anandsagar0006/">
-  <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
+  <img src="https://img.shields.io/badge/LeetCode-Solve-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
 </a>
+
+<a href="https://www.codechef.com/users/anandsagar0006">
+  <img src="https://img.shields.io/badge/CodeChef-Compete-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef">
+</a>
+
+<br><br>
+
+### `Build → Ship → Learn → Improve`
+
+<sub>Building useful products with clean engineering.</sub>
 
 </div>
-
----
-
-## 👨‍💻 About Me
-
-I'm **Anand Sagar**, a Full Stack Developer with hands-on experience building
-modern web applications, backend services, mobile applications, and real-time
-product features.
-
-My work spans both **frontend and backend development**, with a strong focus on
-building responsive interfaces, reliable APIs, maintainable application logic,
-and practical solutions for real-world products.
-
-- 💼 Working as a **Full Stack Developer**
-- 🚀 Building web applications and recruitment platform features
-- ☕ Strong focus on **Java and backend development**
-- ⚛️ Building modern user interfaces with **React.js**
-- 🌱 Working with **Spring Boot, Hibernate and REST APIs**
-- 📱 Experienced in **Android development and Firebase**
-- 🗺️ Built real-time location and ride-tracking features
-- 🤖 Exploring practical applications of **AI in software products**
-- 🎓 B.Tech in **Computer Science & Engineering**
-- 📍 Based in **Bengaluru, India**
-- 📫 Reach me at **anandsagar0006@gmail.com**
-
----
-
-## 💼 Current Focus
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│   CURRENT ROLE       Full Stack Developer                    │
-│                                                              │
-│   BUILDING           Web Applications & Product Features     │
-│                                                              │
-│   FRONTEND           React.js · JavaScript · HTML · CSS      │
-│                                                              │
-│   BACKEND            Java · Spring Boot · Hibernate          │
-│                                                              │
-│   DATABASE           MySQL · PostgreSQL · Firebase           │
-│                                                              │
-│   ALSO WORKING WITH  REST APIs · Android · Git · CI/CD       │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
