@@ -121,21 +121,14 @@ I care about more than making a feature technically work. I try to understand ho
 </p>
 
 <br>
-
 ## 📊 GitHub Activity
 
-
-<div align="center">
-
-<img
-  width="70%"
-  src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true"
-  alt="Anand Sagar GitHub Contribution Streak"
->
-
-</div>
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true" alt="Anand Sagar GitHub Contribution Streak">
+</p>
 
 <br>
+
 
 <div align="center">
   <img
