@@ -124,17 +124,15 @@ I care about more than making a feature technically work. I try to understand ho
 
 ## 📊 GitHub Activity
 
+
 <div align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=anandsagar6&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"
-    alt="Anand Sagar GitHub Statistics"
-  >
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsagar6&layout=compact&hide_border=true&theme=transparent"
-    alt="Anand Sagar Most Used Languages"
-  >
+
+<img
+  width="70%"
+  src="https://streak-stats.demolab.com?user=anandsagar6&theme=transparent&hide_border=true"
+  alt="Anand Sagar GitHub Contribution Streak"
+>
+
 </div>
 
 <br>
