@@ -1,0 +1,140 @@
+<svg
+  width="1200"
+  height="260"
+  viewBox="0 0 1200 260"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260">
+      <stop offset="0%" stop-color="#080D18"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="gold">
+      <stop offset="0%" stop-color="#F6C453"/>
+      <stop offset="100%" stop-color="#FFE29A"/>
+    </linearGradient>
+
+    <clipPath id="clip">
+      <rect width="1200" height="260" rx="24"/>
+    </clipPath>
+
+  </defs>
+
+  <rect
+    width="1200"
+    height="260"
+    rx="24"
+    fill="url(#bg)"
+    stroke="#30363D"
+  />
+
+  <!-- Title -->
+
+  <text
+    x="600"
+    y="48"
+    text-anchor="middle"
+    fill="#F6C453"
+    font-family="Arial, sans-serif"
+    font-size="24"
+    font-weight="700"
+  >
+    TECHNOLOGIES I BUILD WITH
+  </text>
+
+  <!-- Top Moving Row -->
+
+  <g clip-path="url(#clip)">
+
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="0 0"
+        to="-1200 0"
+        dur="18s"
+        repeatCount="indefinite"
+      />
+
+      <text
+        x="40"
+        y="115"
+        fill="#FFFFFF"
+        font-family="monospace"
+        font-size="22"
+      >
+        JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS   ◆   JAVASCRIPT   ◆   HIBERNATE   ◆   REST APIs   ◆   JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS
+      </text>
+
+      <text
+        x="1240"
+        y="115"
+        fill="#FFFFFF"
+        font-family="monospace"
+        font-size="22"
+      >
+        JAVA   ◆   SPRING BOOT   ◆   REACT   ◆   NEXT.JS   ◆   JAVASCRIPT   ◆   HIBERNATE   ◆   REST APIs
+      </text>
+
+    </g>
+
+    <!-- Bottom Moving Row -->
+
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-1200 0"
+        to="0 0"
+        dur="20s"
+        repeatCount="indefinite"
+      />
+
+      <text
+        x="40"
+        y="195"
+        fill="#F6C453"
+        font-family="monospace"
+        font-size="21"
+      >
+        ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL   ◆   GIT   ◆   LINUX   ◆   POSTMAN   ◆   ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL
+      </text>
+
+      <text
+        x="1240"
+        y="195"
+        fill="#F6C453"
+        font-family="monospace"
+        font-size="21"
+      >
+        ANDROID   ◆   FIREBASE   ◆   MYSQL   ◆   POSTGRESQL   ◆   GIT   ◆   LINUX   ◆   POSTMAN
+      </text>
+
+    </g>
+
+  </g>
+
+  <!-- Side fade overlays -->
+
+  <rect
+    x="0"
+    y="65"
+    width="100"
+    height="180"
+    fill="url(#bg)"
+    opacity="0.9"
+  />
+
+  <rect
+    x="1100"
+    y="65"
+    width="100"
+    height="180"
+    fill="url(#bg)"
+    opacity="0.9"
+  />
+
+</svg>

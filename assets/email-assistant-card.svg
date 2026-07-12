@@ -1,0 +1,126 @@
+<svg
+  width="580"
+  height="340"
+  viewBox="0 0 580 340"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="340">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#151D2D"/>
+    </linearGradient>
+
+  </defs>
+
+  <rect
+    x="2"
+    y="2"
+    width="576"
+    height="336"
+    rx="22"
+    fill="url(#bg)"
+    stroke="#30363D"
+    stroke-width="2"
+  />
+
+  <!-- Animated pulse -->
+
+  <circle
+    cx="525"
+    cy="55"
+    r="8"
+    fill="#F6C453"
+  >
+    <animate
+      attributeName="r"
+      values="6;13;6"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <text x="35" y="55" font-size="34">📧</text>
+
+  <text
+    x="35"
+    y="100"
+    fill="#FFFFFF"
+    font-size="30"
+    font-family="Arial"
+    font-weight="700"
+  >
+    AI Email Assistant
+  </text>
+
+  <text
+    x="35"
+    y="130"
+    fill="#F6C453"
+    font-size="16"
+    font-family="monospace"
+  >
+    AI-POWERED BROWSER EXTENSION
+  </text>
+
+  <text
+    x="35"
+    y="180"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    Generate intelligent and contextual email
+  </text>
+
+  <text
+    x="35"
+    y="205"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    responses using Gemini AI.
+  </text>
+
+  <g font-family="monospace" font-size="14">
+
+    <rect x="35" y="245" width="125" height="32" rx="8" fill="#1E293B"/>
+    <text x="51" y="266" fill="#F6C453">Spring Boot</text>
+
+    <rect x="172" y="245" width="110" height="32" rx="8" fill="#1E293B"/>
+    <text x="188" y="266" fill="#F6C453">JavaScript</text>
+
+    <rect x="294" y="245" width="105" height="32" rx="8" fill="#1E293B"/>
+    <text x="310" y="266" fill="#F6C453">Gemini AI</text>
+
+  </g>
+
+  <text
+    x="35"
+    y="315"
+    fill="#8B949E"
+    font-family="monospace"
+    font-size="14"
+  >
+    AI + BACKEND
+  </text>
+
+  <text
+    x="525"
+    y="315"
+    fill="#F6C453"
+    font-size="24"
+  >
+    ↗
+  </text>
+
+</svg>

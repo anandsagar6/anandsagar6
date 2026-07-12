@@ -1,0 +1,145 @@
+<svg
+  width="580"
+  height="340"
+  viewBox="0 0 580 340"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="340">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#151D2D"/>
+    </linearGradient>
+
+    <linearGradient id="gold">
+      <stop offset="0%" stop-color="#F6C453"/>
+      <stop offset="100%" stop-color="#FFE29A"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect
+    x="2"
+    y="2"
+    width="576"
+    height="336"
+    rx="22"
+    fill="url(#bg)"
+    stroke="#30363D"
+    stroke-width="2"
+  />
+
+  <!-- Animated Top Line -->
+
+  <rect
+    x="30"
+    y="0"
+    width="140"
+    height="3"
+    rx="2"
+    fill="url(#gold)"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="x"
+      values="30;410;30"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <text
+    x="35"
+    y="55"
+    font-size="34"
+    font-family="Arial"
+  >
+    🚕
+  </text>
+
+  <text
+    x="35"
+    y="100"
+    fill="#FFFFFF"
+    font-size="30"
+    font-family="Arial"
+    font-weight="700"
+  >
+    Rideer
+  </text>
+
+  <text
+    x="35"
+    y="130"
+    fill="#F6C453"
+    font-size="16"
+    font-family="monospace"
+  >
+    RIDE BOOKING ANDROID PLATFORM
+  </text>
+
+  <text
+    x="35"
+    y="180"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    Real-time ride booking with driver tracking,
+  </text>
+
+  <text
+    x="35"
+    y="205"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    route visualization and Firebase integration.
+  </text>
+
+  <!-- Tags -->
+
+  <g font-family="monospace" font-size="14">
+
+    <rect x="35" y="245" width="65" height="32" rx="8" fill="#1E293B"/>
+    <text x="52" y="266" fill="#F6C453">Java</text>
+
+    <rect x="112" y="245" width="90" height="32" rx="8" fill="#1E293B"/>
+    <text x="128" y="266" fill="#F6C453">Android</text>
+
+    <rect x="214" y="245" width="92" height="32" rx="8" fill="#1E293B"/>
+    <text x="230" y="266" fill="#F6C453">Firebase</text>
+
+  </g>
+
+  <text
+    x="35"
+    y="315"
+    fill="#8B949E"
+    font-family="monospace"
+    font-size="14"
+  >
+    FEATURED PROJECT
+  </text>
+
+  <text
+    x="525"
+    y="315"
+    fill="#F6C453"
+    font-family="Arial"
+    font-size="24"
+  >
+    ↗
+  </text>
+
+</svg>

@@ -1,0 +1,142 @@
+<svg
+  width="580"
+  height="340"
+  viewBox="0 0 580 340"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="340">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#151D2D"/>
+    </linearGradient>
+
+    <linearGradient id="gold">
+      <stop offset="0%" stop-color="#F6C453"/>
+      <stop offset="100%" stop-color="#FFE29A"/>
+    </linearGradient>
+
+  </defs>
+
+  <rect
+    x="2"
+    y="2"
+    width="576"
+    height="336"
+    rx="22"
+    fill="url(#bg)"
+    stroke="#30363D"
+    stroke-width="2"
+  />
+
+  <!-- Animated scan line -->
+
+  <line
+    x1="30"
+    x2="550"
+    y1="40"
+    y2="40"
+    stroke="#F6C453"
+    stroke-width="2"
+    opacity="0.7"
+  >
+    <animate
+      attributeName="y1"
+      values="40;300;40"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="y2"
+      values="40;300;40"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0;0.8;0"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </line>
+
+  <text x="35" y="55" font-size="34">🤖</text>
+
+  <text
+    x="35"
+    y="100"
+    fill="#FFFFFF"
+    font-size="30"
+    font-family="Arial"
+    font-weight="700"
+  >
+    AI Location Finder
+  </text>
+
+  <text
+    x="35"
+    y="130"
+    fill="#F6C453"
+    font-size="16"
+    font-family="monospace"
+  >
+    IMAGE → AI → LOCATION
+  </text>
+
+  <text
+    x="35"
+    y="180"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    AI-powered image analysis for identifying
+  </text>
+
+  <text
+    x="35"
+    y="205"
+    fill="#A9B1BD"
+    font-size="17"
+    font-family="Arial"
+  >
+    real-world locations and coordinates.
+  </text>
+
+  <g font-family="monospace" font-size="14">
+
+    <rect x="35" y="245" width="65" height="32" rx="8" fill="#1E293B"/>
+    <text x="52" y="266" fill="#F6C453">Java</text>
+
+    <rect x="112" y="245" width="125" height="32" rx="8" fill="#1E293B"/>
+    <text x="128" y="266" fill="#F6C453">Spring Boot</text>
+
+    <rect x="249" y="245" width="105" height="32" rx="8" fill="#1E293B"/>
+    <text x="265" y="266" fill="#F6C453">Gemini AI</text>
+
+  </g>
+
+  <text
+    x="35"
+    y="315"
+    fill="#8B949E"
+    font-family="monospace"
+    font-size="14"
+  >
+    AI PROJECT
+  </text>
+
+  <text
+    x="525"
+    y="315"
+    fill="#F6C453"
+    font-family="Arial"
+    font-size="24"
+  >
+    ↗
+  </text>
+
+</svg>
