@@ -62,9 +62,9 @@
     <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur=".55s" begin=".85s" fill="freeze"/>
     <circle cx="89.5" cy="347" r="8" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values=".55;1;.55" dur="2.6s" repeatCount="indefinite"/></circle>
     <rect x="125" y="309" width="997" height="103" rx="18" class="card"/>
-    <text x="154" y="343" class="ui title" font-size="19">Trainee Engineer</text>
+    <text x="154" y="343" class="ui title" font-size="19">Full Stack Developer</text>
     <text x="154" y="369" class="ui" fill="#22d3ee" font-size="14" font-weight="650">Evision Technoserve Pvt. Ltd.</text>
-    <text x="1084" y="343" text-anchor="end" class="mono muted" font-size="11">MAR 2025 — 2025</text>
+    <text x="1084" y="343" text-anchor="end" class="mono muted" font-size="11">MAR 2025 — NOV 2025</text>
     <text x="154" y="394" class="ui body" font-size="13">Developed React modules, integrated backend APIs and contributed to responsive client-facing product interfaces.</text>
   </g>
 
